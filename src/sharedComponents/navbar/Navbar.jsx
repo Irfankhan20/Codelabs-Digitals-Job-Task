@@ -1,3 +1,5 @@
+import { GoArrowUpRight } from "react-icons/go";
+
 const Navbar = () => {
   return (
     <nav className="bg-[#E0E2E9]">
@@ -61,7 +63,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Appointment</a>
+          <a className="btn border border-black bg-[#E0E2E9]">
+            Appointment <GoArrowUpRight />
+          </a>
         </div>
       </div>
     </nav>

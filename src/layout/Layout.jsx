@@ -5,7 +5,7 @@ import Footer from "../sharedComponents/footer/Footer";
 const Layout = () => {
   return (
     <div className="bg-white  flex flex-col min-h-[100vh]">
-      <div className="flex-grow border border-red-700  ">
+      <div className="flex-grow">
         <Navbar></Navbar>
         <Outlet></Outlet>
       </div>
