@@ -2,7 +2,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const WhoWeAre = () => {
   return (
-    <section className="bg-[#E0E2E9] pt-32 pb-32 ">
+    <section className="bg-[#E0E2E9] pt-32 pb-36 ">
       <div className="max-w-7xl mx-auto ">
         {/* main part  */}
         <div className="flex gap-[142px] w-full relative">
